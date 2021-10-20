@@ -1,0 +1,13 @@
+C:\Users\Flavio Freire\source\repos\WordLadder\WordLadder\bin\Release\netcoreapp3.1\WordLadder.exe
+C:\Users\Flavio Freire\source\repos\WordLadder\WordLadder\bin\Release\netcoreapp3.1\WordLadder.deps.json
+C:\Users\Flavio Freire\source\repos\WordLadder\WordLadder\bin\Release\netcoreapp3.1\WordLadder.runtimeconfig.json
+C:\Users\Flavio Freire\source\repos\WordLadder\WordLadder\bin\Release\netcoreapp3.1\WordLadder.runtimeconfig.dev.json
+C:\Users\Flavio Freire\source\repos\WordLadder\WordLadder\bin\Release\netcoreapp3.1\WordLadder.dll
+C:\Users\Flavio Freire\source\repos\WordLadder\WordLadder\bin\Release\netcoreapp3.1\WordLadder.pdb
+C:\Users\Flavio Freire\source\repos\WordLadder\WordLadder\obj\Release\netcoreapp3.1\WordLadder.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Flavio Freire\source\repos\WordLadder\WordLadder\obj\Release\netcoreapp3.1\WordLadder.AssemblyInfoInputs.cache
+C:\Users\Flavio Freire\source\repos\WordLadder\WordLadder\obj\Release\netcoreapp3.1\WordLadder.AssemblyInfo.cs
+C:\Users\Flavio Freire\source\repos\WordLadder\WordLadder\obj\Release\netcoreapp3.1\WordLadder.csproj.CoreCompileInputs.cache
+C:\Users\Flavio Freire\source\repos\WordLadder\WordLadder\obj\Release\netcoreapp3.1\WordLadder.dll
+C:\Users\Flavio Freire\source\repos\WordLadder\WordLadder\obj\Release\netcoreapp3.1\WordLadder.pdb
+C:\Users\Flavio Freire\source\repos\WordLadder\WordLadder\obj\Release\netcoreapp3.1\WordLadder.genruntimeconfig.cache

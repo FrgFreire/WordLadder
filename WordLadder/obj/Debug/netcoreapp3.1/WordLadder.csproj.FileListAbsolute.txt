@@ -31,6 +31,7 @@ C:\Users\Flavio Freire\source\repos\WordLadder\WordLadder\bin\Debug\netcoreapp3.
 C:\Users\Flavio Freire\source\repos\WordLadder\WordLadder\bin\Debug\netcoreapp3.1\WordLadder.runtimeconfig.dev.json
 C:\Users\Flavio Freire\source\repos\WordLadder\WordLadder\bin\Debug\netcoreapp3.1\WordLadder.dll
 C:\Users\Flavio Freire\source\repos\WordLadder\WordLadder\bin\Debug\netcoreapp3.1\WordLadder.pdb
+C:\Users\Flavio Freire\source\repos\WordLadder\WordLadder\obj\Debug\netcoreapp3.1\WordLadder.csproj.AssemblyReference.cache
 C:\Users\Flavio Freire\source\repos\WordLadder\WordLadder\obj\Debug\netcoreapp3.1\WordLadder.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Flavio Freire\source\repos\WordLadder\WordLadder\obj\Debug\netcoreapp3.1\WordLadder.AssemblyInfoInputs.cache
 C:\Users\Flavio Freire\source\repos\WordLadder\WordLadder\obj\Debug\netcoreapp3.1\WordLadder.AssemblyInfo.cs

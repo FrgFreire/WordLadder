@@ -28,51 +28,57 @@ namespace WordLadder
             {
 
                 var stopWord = queue.Dequeue();
-                //we can terminate loop once we reached the endWord as all paths leads here already visited in previous level 
-                if (stopWord.Equals(endWord))
-                {
-                    return paths[endWord];
-                }
-                else
-                {
-                    if (visited.Contains(stopWord))
-                        continue;
 
-                    visited.Add(stopWord);
-
-                    //Transform word to intermidiate words and find matches
-                    for (int i = 0; i < stopWord.Length; i++)
+                if (!stopWord.Equals(endWord))
+                {
+                    if (!visited.Contains(stopWord))
                     {
+                        visited.Add(stopWord);
 
-                        StringBuilder sb = new StringBuilder(stopWord);
-                        sb[i] = '*';
-                        var transform = sb.ToString();
-
-                        if (graph.ContainsKey(transform))
+                        //Transform word to intermidiate words and find matches
+                        for (int i = 0; i < stopWord.Length; i++)
                         {
 
-                            //Iterating all adj words
-                            foreach (var word in graph[transform])
+                            StringBuilder sb = new StringBuilder(stopWord);
+                            sb[i] = '*';
+                            var transform = sb.ToString();
+
+                            if (graph.ContainsKey(transform))
                             {
-                                if (!visited.Contains(word))
+
+                                //Iterating all adj words
+                                foreach (var word in graph[transform])
                                 {
-                                    //fetch all paths leads current word to generate paths to adj/child node 
-                                    foreach (var path in paths[stopWord])
+                                    if (!visited.Contains(word))
                                     {
+                                        //fetch all paths leads current word to generate paths to adj/child node 
+                                        foreach (var path in paths[stopWord])
+                                        {
 
-                                        var newPath = new List<string>(path);
-                                        newPath.Add(word);
+                                            var newPath = new List<string>(path);
+                                            newPath.Add(word);
 
-                                        if (!paths.ContainsKey(word))
-                                            paths[word] = new List<List<string>>() { newPath };
-                                        else if (paths[word][0].Count >= newPath.Count)// we are interested in shortest paths only
-                                            paths[word].Add(newPath);
+                                            if (!paths.ContainsKey(word))
+                                                paths[word] = new List<List<string>>() { newPath };
+                                            else if (paths[word][0].Count >= newPath.Count)// we are interested in shortest paths only
+                                                paths[word].Add(newPath);
+                                        }
+                                        queue.Enqueue(word);
                                     }
-                                    queue.Enqueue(word);
                                 }
                             }
                         }
                     }
+                    else
+                    {
+                        continue;
+                    }
+                    
+                }
+                else
+                {
+                    //we can terminate loop once we reached the endWord as all paths leads here already visited in previous level
+                    return paths[endWord];
                 }
 
             }
