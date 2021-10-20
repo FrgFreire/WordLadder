@@ -81,7 +81,7 @@ namespace WordLadder
 
         }
 
-        //For example word hit can be written as *it,h*t,hi*. 
+        //For example word full can be written as *ull,f*ll,fu*l,ful*. 
         //This method genereates a map from each intermediate word to possible words from our wordlist
         private static void AddWordToGraph(string word, Dictionary<string, HashSet<string>> graph)
         {

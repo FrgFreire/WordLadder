@@ -7,8 +7,6 @@ namespace WordLadder
     public class MenuConsole
     {
         public ValidationHelper ValidationHelper;
-
-        protected const string ResultTxtPath = @"C:\Users\Flavio Freire\source\repos\WordLadder\result.txt";
         protected bool StartWordValid { get; set; }
         protected bool EndWordValid { get; set; }
         public string StartWord { get; set; }
