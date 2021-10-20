@@ -1,0 +1,13 @@
+C:\Users\Flavio Freire\source\repos\WordSequence\bin\Debug\netcoreapp3.1\WordSequence.exe
+C:\Users\Flavio Freire\source\repos\WordSequence\bin\Debug\netcoreapp3.1\WordSequence.deps.json
+C:\Users\Flavio Freire\source\repos\WordSequence\bin\Debug\netcoreapp3.1\WordSequence.runtimeconfig.json
+C:\Users\Flavio Freire\source\repos\WordSequence\bin\Debug\netcoreapp3.1\WordSequence.runtimeconfig.dev.json
+C:\Users\Flavio Freire\source\repos\WordSequence\bin\Debug\netcoreapp3.1\WordSequence.dll
+C:\Users\Flavio Freire\source\repos\WordSequence\bin\Debug\netcoreapp3.1\WordSequence.pdb
+C:\Users\Flavio Freire\source\repos\WordSequence\obj\Debug\netcoreapp3.1\WordSequence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Flavio Freire\source\repos\WordSequence\obj\Debug\netcoreapp3.1\WordSequence.AssemblyInfoInputs.cache
+C:\Users\Flavio Freire\source\repos\WordSequence\obj\Debug\netcoreapp3.1\WordSequence.AssemblyInfo.cs
+C:\Users\Flavio Freire\source\repos\WordSequence\obj\Debug\netcoreapp3.1\WordSequence.csproj.CoreCompileInputs.cache
+C:\Users\Flavio Freire\source\repos\WordSequence\obj\Debug\netcoreapp3.1\WordSequence.dll
+C:\Users\Flavio Freire\source\repos\WordSequence\obj\Debug\netcoreapp3.1\WordSequence.pdb
+C:\Users\Flavio Freire\source\repos\WordSequence\obj\Debug\netcoreapp3.1\WordSequence.genruntimeconfig.cache
