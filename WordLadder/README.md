@@ -1,6 +1,6 @@
 # WordLadder 
 WordLadder is a Console application Solution base in .NET core and writen in C# that solve a word puzzel called "Word Ladder" and write the result to a .txt.
-This solution have a Unit Tests project. In the implementation was used Breadth-First Search algorithm (https://en.wikipedia.org/wiki/Breadth-first_search#BFS_ordering) and SOLID principles.
+This solution have a Unit Tests project. In the implementation was used Breadth-First Search algorithm(*1) and SOLID principles(*2).
 
 "Word Ladder" puzzel consists in:
 
@@ -15,3 +15,7 @@ This solution have a Unit Tests project. In the implementation was used Breadth-
 -Each intermediate step should be a word from the dictionary file (supplied) finding the shortest path of alterations
 
 -Start and End word should be 4 characters long
+
+*1 - Breadth-First Search algorithm - (https://en.wikipedia.org/wiki/Breadth-first_search#BFS_ordering)
+
+*2- SOLID principles (https://en.wikipedia.org/wiki/SOLID)
